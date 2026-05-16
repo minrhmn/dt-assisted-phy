@@ -1,0 +1,522 @@
+{
+  "config": {
+    "mcs_table": {
+      "1": {
+        "mod_order": 4,
+        "code_rate": 0.234375,
+        "mod_name": "QPSK"
+      },
+      "3": {
+        "mod_order": 4,
+        "code_rate": 0.25,
+        "mod_name": "QPSK"
+      },
+      "4": {
+        "mod_order": 4,
+        "code_rate": 0.30078125,
+        "mod_name": "QPSK"
+      },
+      "6": {
+        "mod_order": 4,
+        "code_rate": 0.4384765625,
+        "mod_name": "QPSK"
+      },
+      "9": {
+        "mod_order": 4,
+        "code_rate": 0.6630859375,
+        "mod_name": "QPSK"
+      },
+      "10": {
+        "mod_order": 16,
+        "code_rate": 0.33203125,
+        "mod_name": "16QAM"
+      },
+      "13": {
+        "mod_order": 16,
+        "code_rate": 0.478515625,
+        "mod_name": "16QAM"
+      },
+      "16": {
+        "mod_order": 16,
+        "code_rate": 0.642578125,
+        "mod_name": "16QAM"
+      },
+      "19": {
+        "mod_order": 64,
+        "code_rate": 0.5048828125,
+        "mod_name": "64QAM"
+      },
+      "22": {
+        "mod_order": 64,
+        "code_rate": 0.650390625,
+        "mod_name": "64QAM"
+      },
+      "25": {
+        "mod_order": 64,
+        "code_rate": 0.802734375,
+        "mod_name": "64QAM"
+      }
+    },
+    "snr_thresholds": {
+      "1": -2.839400791417748,
+      "3": -2.540091491074521,
+      "4": -1.4502628687927899,
+      "6": 0.6391280619082929,
+      "9": 3.3932918790446926,
+      "10": 3.7793210843271905,
+      "13": 6.3075290582458585,
+      "16": 8.971514995815818,
+      "19": 11.286567039156962,
+      "22": 14.04444951763774,
+      "25": 16.814801470503596
+    },
+    "experiment_positions": {
+      "posp1": 2.0,
+      "posp3": 5.0,
+      "posp10": 8.0,
+      "posp11": 11.0,
+      "posp19": 7.0
+    },
+    "bw_hz": 50000000.0,
+    "fft": 256,
+    "n_occ": 192,
+    "n_pilots": 2,
+    "bler_target": 0.1,
+    "rhh_dt_n_positions": 3004,
+    "rhh_dt_trace_per_sc_db": -38.75736264280143,
+    "rhh_emp_n_positions": 20,
+    "rhh_emp_trace_per_sc_db": -0.20660257471032287
+  },
+  "results": {
+    "posp1": {
+      "snr_db": 2.0,
+      "actual_pos": "posp1",
+      "position": [
+        -0.9,
+        2.5,
+        1.0
+      ],
+      "dt_correlation": 0.5829247571304704,
+      "ree_scale": 1.0038537140445858,
+      "mse_ls_db": -5.0102999566398125,
+      "mse_lmmse_emp_avg_db": -7.0339238723610595,
+      "mse_dt_derived_avg_db": -9.548962174955781,
+      "mse_dt_assisted_avg_db": -18.36646845179835,
+      "sinr_penalty_ls_db": 1.7609125905568124,
+      "sinr_penalty_lmmse_db": 1.1851843176930694,
+      "sinr_penalty_dt_derived_db": 0.7034615251043432,
+      "sinr_penalty_dt_assisted_db": 0.09912242501774567,
+      "3GPP_InF_LS": {
+        "estimation": "LS",
+        "mcs": 4,
+        "mcs_label": "MCS4 (QPSK R=0.301)",
+        "se": 0.6015625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.6015625
+      },
+      "3GPP_InF_LMMSE": {
+        "estimation": "LMMSE (empirical R_hh, 20 positions)",
+        "mcs": 4,
+        "mcs_label": "MCS4 (QPSK R=0.301)",
+        "se": 0.6015625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.6015625
+      },
+      "3GPP_InF_Perfect": {
+        "estimation": "Perfect CSI (no penalty)",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      },
+      "DT_Derived_QD": {
+        "receiver": "DT-Derived LMMSE",
+        "covariance": "R_hh (3004 grid positions)",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      },
+      "DT_Assisted_QD": {
+        "receiver": "DT-Assisted LMMSE",
+        "covariance": "R_ee (20 sounding positions, per-position scaled)",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      }
+    },
+    "posp3": {
+      "snr_db": 5.0,
+      "actual_pos": "posp3",
+      "position": [
+        -10.5,
+        -4.9,
+        1.0
+      ],
+      "dt_correlation": 0.6080352525164381,
+      "ree_scale": 0.9545087551555151,
+      "mse_ls_db": -8.01029995663981,
+      "mse_lmmse_emp_avg_db": -9.150072833719884,
+      "mse_dt_derived_avg_db": -10.897318813315309,
+      "mse_dt_assisted_avg_db": -20.82129357287236,
+      "sinr_penalty_ls_db": 1.7609125905568124,
+      "sinr_penalty_lmmse_db": 1.4131972656212795,
+      "sinr_penalty_dt_derived_db": 0.9940379019296177,
+      "sinr_penalty_dt_assisted_db": 0.11221020703404151,
+      "3GPP_InF_LS": {
+        "estimation": "LS",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      },
+      "3GPP_InF_LMMSE": {
+        "estimation": "LMMSE (empirical R_hh, 20 positions)",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      },
+      "3GPP_InF_Perfect": {
+        "estimation": "Perfect CSI (no penalty)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.01,
+        "bler_ci": [
+          0.001213349013736031,
+          0.035654668397239776
+        ],
+        "compliant": true,
+        "throughput": 1.31484375
+      },
+      "DT_Derived_QD": {
+        "receiver": "DT-Derived LMMSE",
+        "covariance": "R_hh (3004 grid positions)",
+        "mcs": 6,
+        "mcs_label": "MCS6 (QPSK R=0.438)",
+        "se": 0.876953125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 0.876953125
+      },
+      "DT_Assisted_QD": {
+        "receiver": "DT-Assisted LMMSE",
+        "covariance": "R_ee (20 sounding positions, per-position scaled)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.02,
+        "bler_ci": [
+          0.00547556587955645,
+          0.05041360908989629
+        ],
+        "compliant": true,
+        "throughput": 1.3015625
+      }
+    },
+    "posp10": {
+      "snr_db": 8.0,
+      "actual_pos": "posp10",
+      "position": [
+        -8.7,
+        6.3,
+        1.0
+      ],
+      "dt_correlation": 0.7540664759954333,
+      "ree_scale": 0.6059714635859832,
+      "mse_ls_db": -11.010299956639813,
+      "mse_lmmse_emp_avg_db": -11.621489159115693,
+      "mse_dt_derived_avg_db": -12.70902758917041,
+      "mse_dt_assisted_avg_db": -23.634938016948105,
+      "sinr_penalty_ls_db": 1.7609125905568124,
+      "sinr_penalty_lmmse_db": 1.5665854700056971,
+      "sinr_penalty_dt_derived_db": 1.2650172798531398,
+      "sinr_penalty_dt_assisted_db": 0.11706421338591222,
+      "3GPP_InF_LS": {
+        "estimation": "LS",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.328125
+      },
+      "3GPP_InF_LMMSE": {
+        "estimation": "LMMSE (empirical R_hh, 20 positions)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.328125
+      },
+      "3GPP_InF_Perfect": {
+        "estimation": "Perfect CSI (no penalty)",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.9140625
+      },
+      "DT_Derived_QD": {
+        "receiver": "DT-Derived LMMSE",
+        "covariance": "R_hh (3004 grid positions)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.328125
+      },
+      "DT_Assisted_QD": {
+        "receiver": "DT-Assisted LMMSE",
+        "covariance": "R_ee (20 sounding positions, per-position scaled)",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.9140625
+      }
+    },
+    "posp11": {
+      "snr_db": 11.0,
+      "actual_pos": "posp11",
+      "position": [
+        -2.8,
+        0.0,
+        1.0
+      ],
+      "dt_correlation": 0.6558806967256705,
+      "ree_scale": 0.8304972795605717,
+      "mse_ls_db": -14.010299956639813,
+      "mse_lmmse_emp_avg_db": -14.328108619721565,
+      "mse_dt_derived_avg_db": -14.949356257315474,
+      "mse_dt_assisted_avg_db": -25.920853173519834,
+      "sinr_penalty_ls_db": 1.7609125905568124,
+      "sinr_penalty_lmmse_db": 1.6575390559139225,
+      "sinr_penalty_dt_derived_db": 1.4698855370040806,
+      "sinr_penalty_dt_assisted_db": 0.13765689491621877,
+      "3GPP_InF_LS": {
+        "estimation": "LS",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.9140625
+      },
+      "3GPP_InF_LMMSE": {
+        "estimation": "LMMSE (empirical R_hh, 20 positions)",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.9140625
+      },
+      "3GPP_InF_Perfect": {
+        "estimation": "Perfect CSI (no penalty)",
+        "mcs": 16,
+        "mcs_label": "MCS16 (16QAM R=0.643)",
+        "se": 2.5703125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 2.5703125
+      },
+      "DT_Derived_QD": {
+        "receiver": "DT-Derived LMMSE",
+        "covariance": "R_hh (3004 grid positions)",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.9140625
+      },
+      "DT_Assisted_QD": {
+        "receiver": "DT-Assisted LMMSE",
+        "covariance": "R_ee (20 sounding positions, per-position scaled)",
+        "mcs": 16,
+        "mcs_label": "MCS16 (16QAM R=0.643)",
+        "se": 2.5703125,
+        "bler": 0.005,
+        "bler_ci": [
+          0.00012658102786701836,
+          0.02754189845720562
+        ],
+        "compliant": true,
+        "throughput": 2.5574609375
+      }
+    },
+    "posp19": {
+      "snr_db": 7.0,
+      "actual_pos": "posp19",
+      "position": [
+        8.5,
+        -5.0,
+        1.0
+      ],
+      "dt_correlation": 0.7028103714448073,
+      "ree_scale": 0.7160302558952673,
+      "mse_ls_db": -10.010299956639813,
+      "mse_lmmse_emp_avg_db": -10.765794366441856,
+      "mse_dt_derived_avg_db": -12.053537417032064,
+      "mse_dt_assisted_avg_db": -22.684160486504233,
+      "sinr_penalty_ls_db": 1.7609125905568124,
+      "sinr_penalty_lmmse_db": 1.523390096167968,
+      "sinr_penalty_dt_derived_db": 1.1805080565742516,
+      "sinr_penalty_dt_assisted_db": 0.11576233784065126,
+      "3GPP_InF_LS": {
+        "estimation": "LS",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.328125
+      },
+      "3GPP_InF_LMMSE": {
+        "estimation": "LMMSE (empirical R_hh, 20 positions)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.0,
+        "bler_ci": [
+          0.0,
+          0.018275340355136237
+        ],
+        "compliant": true,
+        "throughput": 1.328125
+      },
+      "3GPP_InF_Perfect": {
+        "estimation": "Perfect CSI (no penalty)",
+        "mcs": 13,
+        "mcs_label": "MCS13 (16QAM R=0.479)",
+        "se": 1.9140625,
+        "bler": 1.0,
+        "bler_ci": [
+          0.9817246596448638,
+          1.0
+        ],
+        "compliant": false,
+        "throughput": 0.0
+      },
+      "DT_Derived_QD": {
+        "receiver": "DT-Derived LMMSE",
+        "covariance": "R_hh (3004 grid positions)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.005,
+        "bler_ci": [
+          0.00012658102786701836,
+          0.02754189845720562
+        ],
+        "compliant": true,
+        "throughput": 1.321484375
+      },
+      "DT_Assisted_QD": {
+        "receiver": "DT-Assisted LMMSE",
+        "covariance": "R_ee (20 sounding positions, per-position scaled)",
+        "mcs": 10,
+        "mcs_label": "MCS10 (16QAM R=0.332)",
+        "se": 1.328125,
+        "bler": 0.005,
+        "bler_ci": [
+          0.00012658102786701836,
+          0.02754189845720562
+        ],
+        "compliant": true,
+        "throughput": 1.321484375
+      }
+    }
+  }
+}

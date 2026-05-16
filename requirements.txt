@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+tensorflow>=2.15
+sionna>=1.2.0
+drjit>=0.4

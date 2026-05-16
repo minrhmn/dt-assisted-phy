@@ -1,0 +1,2159 @@
+{
+  "generated": "2026-04-29",
+  "description": "OTA Neural RX evaluation summary \u2014 all BWs, positions, modulations",
+  "total_captures": 265,
+  "bandwidths": {
+    "50m": {
+      "positions": {
+        "p1": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 6,
+            "ls_wins": 4,
+            "avg_ber_gap_nr_minus_ls": -0.01137,
+            "captures": [
+              {
+                "ebn0_db": -2.4,
+                "ber_ls": 0.25083,
+                "ber_nr": 0.21133,
+                "ber_dt_lmmse": 0.19545,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.3,
+                "ber_ls": 0.2017,
+                "ber_nr": 0.16572,
+                "ber_dt_lmmse": 0.15638,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.7,
+                "ber_ls": 0.15155,
+                "ber_nr": 0.12292,
+                "ber_dt_lmmse": 0.11804,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 3.8,
+                "ber_ls": 0.11004,
+                "ber_nr": 0.08902,
+                "ber_dt_lmmse": 0.08707,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.07779,
+                "ber_nr": 0.06598,
+                "ber_dt_lmmse": 0.06397,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 7.7,
+                "ber_ls": 0.05295,
+                "ber_nr": 0.04925,
+                "ber_dt_lmmse": 0.04491,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 9.6,
+                "ber_ls": 0.02834,
+                "ber_nr": 0.03055,
+                "ber_dt_lmmse": 0.02625,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 11.6,
+                "ber_ls": 0.01836,
+                "ber_nr": 0.02232,
+                "ber_dt_lmmse": 0.01809,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 13.5,
+                "ber_ls": 0.01034,
+                "ber_nr": 0.02028,
+                "ber_dt_lmmse": 0.01153,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 15.5,
+                "ber_ls": 0.0073,
+                "ber_nr": 0.01818,
+                "ber_dt_lmmse": 0.00856,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.02389,
+            "captures": [
+              {
+                "ebn0_db": -7.7,
+                "ber_ls": 0.39268,
+                "ber_nr": 0.36732,
+                "ber_dt_lmmse": 0.35897,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -5.7,
+                "ber_ls": 0.3558,
+                "ber_nr": 0.32382,
+                "ber_dt_lmmse": 0.32188,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -3.7,
+                "ber_ls": 0.31395,
+                "ber_nr": 0.27682,
+                "ber_dt_lmmse": 0.28174,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -1.6,
+                "ber_ls": 0.2713,
+                "ber_nr": 0.23418,
+                "ber_dt_lmmse": 0.24248,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 2.0,
+                "ber_ls": 0.23914,
+                "ber_nr": 0.20547,
+                "ber_dt_lmmse": 0.21558,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 2.3,
+                "ber_ls": 0.18259,
+                "ber_nr": 0.15262,
+                "ber_dt_lmmse": 0.1659,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.4,
+                "ber_ls": 0.14503,
+                "ber_nr": 0.12411,
+                "ber_dt_lmmse": 0.13646,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.3,
+                "ber_ls": 0.10487,
+                "ber_nr": 0.0918,
+                "ber_dt_lmmse": 0.1052,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.3,
+                "ber_ls": 0.07542,
+                "ber_nr": 0.06723,
+                "ber_dt_lmmse": 0.08138,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 10.2,
+                "ber_ls": 0.05306,
+                "ber_nr": 0.05153,
+                "ber_dt_lmmse": 0.06404,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        },
+        "p2": {
+          "qpsk": {
+            "n_captures": 7,
+            "nr_wins": 0,
+            "ls_wins": 7,
+            "avg_ber_gap_nr_minus_ls": 0.03647,
+            "captures": [
+              {
+                "ebn0_db": -6.5,
+                "ber_ls": 0.31232,
+                "ber_nr": 0.34217,
+                "ber_dt_lmmse": 0.27301,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.3,
+                "ber_ls": 0.15526,
+                "ber_nr": 0.18031,
+                "ber_dt_lmmse": 0.16305,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 2.6,
+                "ber_ls": 0.13263,
+                "ber_nr": 0.15139,
+                "ber_dt_lmmse": 0.15253,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 3.6,
+                "ber_ls": 0.0778,
+                "ber_nr": 0.11757,
+                "ber_dt_lmmse": 0.11098,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.06114,
+                "ber_nr": 0.10211,
+                "ber_dt_lmmse": 0.09998,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 7.7,
+                "ber_ls": 0.04997,
+                "ber_nr": 0.09617,
+                "ber_dt_lmmse": 0.09369,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 9.5,
+                "ber_ls": 0.03851,
+                "ber_nr": 0.09323,
+                "ber_dt_lmmse": 0.08786,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 4,
+            "nr_wins": 0,
+            "ls_wins": 4,
+            "avg_ber_gap_nr_minus_ls": 0.03064,
+            "captures": [
+              {
+                "ebn0_db": -1.9,
+                "ber_ls": 0.28864,
+                "ber_nr": 0.30047,
+                "ber_dt_lmmse": 0.32147,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -0.2,
+                "ber_ls": 0.23581,
+                "ber_nr": 0.26067,
+                "ber_dt_lmmse": 0.29034,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.8,
+                "ber_ls": 0.19441,
+                "ber_nr": 0.23133,
+                "ber_dt_lmmse": 0.26941,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 3.7,
+                "ber_ls": 0.15149,
+                "ber_nr": 0.20046,
+                "ber_dt_lmmse": 0.24704,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p3": {
+          "qpsk": {
+            "n_captures": 5,
+            "nr_wins": 0,
+            "ls_wins": 5,
+            "avg_ber_gap_nr_minus_ls": 0.22867,
+            "captures": [
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.17644,
+                "ber_nr": 0.344,
+                "ber_dt_lmmse": 0.23363,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.0,
+                "ber_ls": 0.13514,
+                "ber_nr": 0.33488,
+                "ber_dt_lmmse": 0.21286,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 2.9,
+                "ber_ls": 0.09358,
+                "ber_nr": 0.3271,
+                "ber_dt_lmmse": 0.19818,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 4.9,
+                "ber_ls": 0.05921,
+                "ber_nr": 0.32767,
+                "ber_dt_lmmse": 0.1904,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 6.8,
+                "ber_ls": 0.0416,
+                "ber_nr": 0.3157,
+                "ber_dt_lmmse": 0.18384,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 3,
+            "nr_wins": 0,
+            "ls_wins": 3,
+            "avg_ber_gap_nr_minus_ls": 0.08064,
+            "captures": [
+              {
+                "ebn0_db": -0.9,
+                "ber_ls": 0.25004,
+                "ber_nr": 0.30883,
+                "ber_dt_lmmse": 0.30424,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.0,
+                "ber_ls": 0.20674,
+                "ber_nr": 0.28866,
+                "ber_dt_lmmse": 0.28336,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 2.7,
+                "ber_ls": 0.16545,
+                "ber_nr": 0.26665,
+                "ber_dt_lmmse": 0.26655,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p4": {
+          "qpsk": {
+            "n_captures": 6,
+            "nr_wins": 0,
+            "ls_wins": 6,
+            "avg_ber_gap_nr_minus_ls": 0.02928,
+            "captures": [
+              {
+                "ebn0_db": 2.1,
+                "ber_ls": 0.09502,
+                "ber_nr": 0.12295,
+                "ber_dt_lmmse": 0.07302,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 4.2,
+                "ber_ls": 0.06581,
+                "ber_nr": 0.09962,
+                "ber_dt_lmmse": 0.054,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.1,
+                "ber_ls": 0.04434,
+                "ber_nr": 0.07944,
+                "ber_dt_lmmse": 0.03895,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 8.1,
+                "ber_ls": 0.03155,
+                "ber_nr": 0.06216,
+                "ber_dt_lmmse": 0.03079,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 9.9,
+                "ber_ls": 0.00815,
+                "ber_nr": 0.03357,
+                "ber_dt_lmmse": 0.0114,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 11.8,
+                "ber_ls": 0.00882,
+                "ber_nr": 0.03165,
+                "ber_dt_lmmse": 0.01214,
+                "best_receiver": "dt_assisted_ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 7,
+            "nr_wins": 6,
+            "ls_wins": 1,
+            "avg_ber_gap_nr_minus_ls": -0.01555,
+            "captures": [
+              {
+                "ebn0_db": -4.4,
+                "ber_ls": 0.31827,
+                "ber_nr": 0.29137,
+                "ber_dt_lmmse": 0.28445,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -2.4,
+                "ber_ls": 0.26986,
+                "ber_nr": 0.24415,
+                "ber_dt_lmmse": 0.23793,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.5,
+                "ber_ls": 0.2221,
+                "ber_nr": 0.1991,
+                "ber_dt_lmmse": 0.19458,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.3,
+                "ber_ls": 0.17226,
+                "ber_nr": 0.1566,
+                "ber_dt_lmmse": 0.15209,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 3.6,
+                "ber_ls": 0.12523,
+                "ber_nr": 0.10927,
+                "ber_dt_lmmse": 0.11157,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.2,
+                "ber_ls": 0.08752,
+                "ber_nr": 0.08375,
+                "ber_dt_lmmse": 0.08526,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 7.1,
+                "ber_ls": 0.05983,
+                "ber_nr": 0.06201,
+                "ber_dt_lmmse": 0.0655,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p5": {
+          "qpsk": {
+            "n_captures": 8,
+            "nr_wins": 8,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.01757,
+            "captures": [
+              {
+                "ebn0_db": -3.8,
+                "ber_ls": 0.25987,
+                "ber_nr": 0.22357,
+                "ber_dt_lmmse": 0.20434,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 0.2,
+                "ber_ls": 0.21707,
+                "ber_nr": 0.18483,
+                "ber_dt_lmmse": 0.17509,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.2,
+                "ber_ls": 0.16788,
+                "ber_nr": 0.14084,
+                "ber_dt_lmmse": 0.13649,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 2.1,
+                "ber_ls": 0.11364,
+                "ber_nr": 0.09518,
+                "ber_dt_lmmse": 0.09535,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.0,
+                "ber_ls": 0.07659,
+                "ber_nr": 0.06284,
+                "ber_dt_lmmse": 0.06807,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.5,
+                "ber_ls": 0.05928,
+                "ber_nr": 0.05163,
+                "ber_dt_lmmse": 0.05672,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.0,
+                "ber_ls": 0.03327,
+                "ber_nr": 0.02891,
+                "ber_dt_lmmse": 0.036,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 9.9,
+                "ber_ls": 0.02102,
+                "ber_nr": 0.02028,
+                "ber_dt_lmmse": 0.02616,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 5,
+            "nr_wins": 5,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.02429,
+            "captures": [
+              {
+                "ebn0_db": -2.8,
+                "ber_ls": 0.2801,
+                "ber_nr": 0.24861,
+                "ber_dt_lmmse": 0.25356,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -0.7,
+                "ber_ls": 0.23381,
+                "ber_nr": 0.20138,
+                "ber_dt_lmmse": 0.21209,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 1.1,
+                "ber_ls": 0.18504,
+                "ber_nr": 0.15751,
+                "ber_dt_lmmse": 0.16915,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.2,
+                "ber_ls": 0.1448,
+                "ber_nr": 0.12622,
+                "ber_dt_lmmse": 0.13535,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.3,
+                "ber_ls": 0.11148,
+                "ber_nr": 0.10005,
+                "ber_dt_lmmse": 0.10844,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        }
+      },
+      "nr_vs_ls": {
+        "nr_wins": 35,
+        "ls_wins": 30,
+        "total": 65
+      }
+    },
+    "25m": {
+      "positions": {
+        "p1": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.05413,
+            "captures": [
+              {
+                "ebn0_db": 2.6,
+                "ber_ls": 0.11719,
+                "ber_nr": 0.13675,
+                "ber_dt_lmmse": 0.10072,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 4.5,
+                "ber_ls": 0.08265,
+                "ber_nr": 0.11505,
+                "ber_dt_lmmse": 0.07841,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.6,
+                "ber_ls": 0.05601,
+                "ber_nr": 0.10885,
+                "ber_dt_lmmse": 0.06109,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 8.6,
+                "ber_ls": 0.04008,
+                "ber_nr": 0.09277,
+                "ber_dt_lmmse": 0.05121,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 10.5,
+                "ber_ls": 0.02943,
+                "ber_nr": 0.08857,
+                "ber_dt_lmmse": 0.04478,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 12.5,
+                "ber_ls": 0.02247,
+                "ber_nr": 0.08622,
+                "ber_dt_lmmse": 0.03861,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 14.5,
+                "ber_ls": 0.01717,
+                "ber_nr": 0.06642,
+                "ber_dt_lmmse": 0.03296,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 16.5,
+                "ber_ls": 0.01326,
+                "ber_nr": 0.08418,
+                "ber_dt_lmmse": 0.0315,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 18.4,
+                "ber_ls": 0.01001,
+                "ber_nr": 0.10155,
+                "ber_dt_lmmse": 0.02916,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 20.4,
+                "ber_ls": 0.00781,
+                "ber_nr": 0.05697,
+                "ber_dt_lmmse": 0.02073,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 2,
+            "ls_wins": 8,
+            "avg_ber_gap_nr_minus_ls": 0.01623,
+            "captures": [
+              {
+                "ebn0_db": -2.5,
+                "ber_ls": 0.27985,
+                "ber_nr": 0.27671,
+                "ber_dt_lmmse": 0.25046,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.5,
+                "ber_ls": 0.23348,
+                "ber_nr": 0.2286,
+                "ber_dt_lmmse": 0.21132,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.7,
+                "ber_ls": 0.18549,
+                "ber_nr": 0.1891,
+                "ber_dt_lmmse": 0.17064,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 3.6,
+                "ber_ls": 0.14569,
+                "ber_nr": 0.15165,
+                "ber_dt_lmmse": 0.13951,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 5.5,
+                "ber_ls": 0.11002,
+                "ber_nr": 0.12048,
+                "ber_dt_lmmse": 0.10463,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 7.5,
+                "ber_ls": 0.08038,
+                "ber_nr": 0.10438,
+                "ber_dt_lmmse": 0.08742,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 9.5,
+                "ber_ls": 0.0565,
+                "ber_nr": 0.0878,
+                "ber_dt_lmmse": 0.06948,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 11.4,
+                "ber_ls": 0.04042,
+                "ber_nr": 0.06802,
+                "ber_dt_lmmse": 0.05867,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 13.4,
+                "ber_ls": 0.02963,
+                "ber_nr": 0.06179,
+                "ber_dt_lmmse": 0.04972,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 15.3,
+                "ber_ls": 0.02228,
+                "ber_nr": 0.05747,
+                "ber_dt_lmmse": 0.04224,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p2": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 8,
+            "ls_wins": 2,
+            "avg_ber_gap_nr_minus_ls": -0.02015,
+            "captures": [
+              {
+                "ebn0_db": -4.2,
+                "ber_ls": 0.26834,
+                "ber_nr": 0.21285,
+                "ber_dt_lmmse": 0.20726,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -2.2,
+                "ber_ls": 0.20892,
+                "ber_nr": 0.16179,
+                "ber_dt_lmmse": 0.16038,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.1,
+                "ber_ls": 0.15097,
+                "ber_nr": 0.11165,
+                "ber_dt_lmmse": 0.11743,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 1.9,
+                "ber_ls": 0.10307,
+                "ber_nr": 0.07621,
+                "ber_dt_lmmse": 0.08483,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.8,
+                "ber_ls": 0.0697,
+                "ber_nr": 0.05201,
+                "ber_dt_lmmse": 0.06181,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.04605,
+                "ber_nr": 0.0373,
+                "ber_dt_lmmse": 0.04638,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 7.7,
+                "ber_ls": 0.03211,
+                "ber_nr": 0.02675,
+                "ber_dt_lmmse": 0.0345,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 9.7,
+                "ber_ls": 0.02322,
+                "ber_nr": 0.0214,
+                "ber_dt_lmmse": 0.02842,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 11.7,
+                "ber_ls": 0.01685,
+                "ber_nr": 0.01722,
+                "ber_dt_lmmse": 0.02329,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 13.6,
+                "ber_ls": 0.01226,
+                "ber_nr": 0.01285,
+                "ber_dt_lmmse": 0.01923,
+                "best_receiver": "dt_assisted_ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.02421,
+            "captures": [
+              {
+                "ebn0_db": -9.1,
+                "ber_ls": 0.41127,
+                "ber_nr": 0.376,
+                "ber_dt_lmmse": 0.37894,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -7.1,
+                "ber_ls": 0.3773,
+                "ber_nr": 0.34132,
+                "ber_dt_lmmse": 0.34639,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -5.1,
+                "ber_ls": 0.33595,
+                "ber_nr": 0.30133,
+                "ber_dt_lmmse": 0.3108,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -3.1,
+                "ber_ls": 0.29317,
+                "ber_nr": 0.26095,
+                "ber_dt_lmmse": 0.27624,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.2473,
+                "ber_nr": 0.21686,
+                "ber_dt_lmmse": 0.24376,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 0.8,
+                "ber_ls": 0.20131,
+                "ber_nr": 0.17406,
+                "ber_dt_lmmse": 0.21542,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 2.9,
+                "ber_ls": 0.15515,
+                "ber_nr": 0.13507,
+                "ber_dt_lmmse": 0.19236,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.8,
+                "ber_ls": 0.11562,
+                "ber_nr": 0.10121,
+                "ber_dt_lmmse": 0.17299,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.7,
+                "ber_ls": 0.08452,
+                "ber_nr": 0.0753,
+                "ber_dt_lmmse": 0.15674,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.6,
+                "ber_ls": 0.05862,
+                "ber_nr": 0.05601,
+                "ber_dt_lmmse": 0.14404,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        },
+        "p3": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.17407,
+            "captures": [
+              {
+                "ebn0_db": -8.2,
+                "ber_ls": 0.37992,
+                "ber_nr": 0.41935,
+                "ber_dt_lmmse": 0.3367,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -6.1,
+                "ber_ls": 0.3345,
+                "ber_nr": 0.39168,
+                "ber_dt_lmmse": 0.30249,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -4.1,
+                "ber_ls": 0.2828,
+                "ber_nr": 0.36712,
+                "ber_dt_lmmse": 0.269,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -2.1,
+                "ber_ls": 0.23006,
+                "ber_nr": 0.3517,
+                "ber_dt_lmmse": 0.23848,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -0.1,
+                "ber_ls": 0.17924,
+                "ber_nr": 0.34234,
+                "ber_dt_lmmse": 0.2124,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.9,
+                "ber_ls": 0.13099,
+                "ber_nr": 0.32664,
+                "ber_dt_lmmse": 0.19172,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 3.9,
+                "ber_ls": 0.09525,
+                "ber_nr": 0.33695,
+                "ber_dt_lmmse": 0.17959,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.06851,
+                "ber_nr": 0.32765,
+                "ber_dt_lmmse": 0.17809,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 7.7,
+                "ber_ls": 0.04913,
+                "ber_nr": 0.33282,
+                "ber_dt_lmmse": 0.16945,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 9.8,
+                "ber_ls": 0.03434,
+                "ber_nr": 0.3292,
+                "ber_dt_lmmse": 0.1744,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.05866,
+            "captures": [
+              {
+                "ebn0_db": -13.0,
+                "ber_ls": 0.45827,
+                "ber_nr": 0.49248,
+                "ber_dt_lmmse": 0.44696,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -11.0,
+                "ber_ls": 0.43778,
+                "ber_nr": 0.4768,
+                "ber_dt_lmmse": 0.42598,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -8.9,
+                "ber_ls": 0.4091,
+                "ber_nr": 0.43285,
+                "ber_dt_lmmse": 0.3958,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -6.9,
+                "ber_ls": 0.37488,
+                "ber_nr": 0.40564,
+                "ber_dt_lmmse": 0.36376,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -5.0,
+                "ber_ls": 0.3375,
+                "ber_nr": 0.37696,
+                "ber_dt_lmmse": 0.33269,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -3.0,
+                "ber_ls": 0.29385,
+                "ber_nr": 0.34476,
+                "ber_dt_lmmse": 0.30272,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.25005,
+                "ber_nr": 0.31923,
+                "ber_dt_lmmse": 0.27976,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.0,
+                "ber_ls": 0.20503,
+                "ber_nr": 0.28986,
+                "ber_dt_lmmse": 0.25983,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 2.9,
+                "ber_ls": 0.16479,
+                "ber_nr": 0.26337,
+                "ber_dt_lmmse": 0.24184,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 4.9,
+                "ber_ls": 0.12596,
+                "ber_nr": 0.2418,
+                "ber_dt_lmmse": 0.23005,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p4": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.01398,
+            "captures": [
+              {
+                "ebn0_db": -1.4,
+                "ber_ls": 0.1783,
+                "ber_nr": 0.13464,
+                "ber_dt_lmmse": 0.12598,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 0.5,
+                "ber_ls": 0.12273,
+                "ber_nr": 0.08766,
+                "ber_dt_lmmse": 0.084,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 2.6,
+                "ber_ls": 0.07617,
+                "ber_nr": 0.04997,
+                "ber_dt_lmmse": 0.05162,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.6,
+                "ber_ls": 0.04619,
+                "ber_nr": 0.03256,
+                "ber_dt_lmmse": 0.03315,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.6,
+                "ber_ls": 0.02714,
+                "ber_nr": 0.01795,
+                "ber_dt_lmmse": 0.02062,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.5,
+                "ber_ls": 0.01686,
+                "ber_nr": 0.01092,
+                "ber_dt_lmmse": 0.01404,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 10.5,
+                "ber_ls": 0.00931,
+                "ber_nr": 0.00575,
+                "ber_dt_lmmse": 0.0088,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 12.5,
+                "ber_ls": 0.00417,
+                "ber_nr": 0.00241,
+                "ber_dt_lmmse": 0.0055,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 14.5,
+                "ber_ls": 0.00142,
+                "ber_nr": 0.00075,
+                "ber_dt_lmmse": 0.00304,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 16.4,
+                "ber_ls": 0.00055,
+                "ber_nr": 0.00042,
+                "ber_dt_lmmse": 0.00197,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.0307,
+            "captures": [
+              {
+                "ebn0_db": -6.5,
+                "ber_ls": 0.35265,
+                "ber_nr": 0.30667,
+                "ber_dt_lmmse": 0.30905,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -4.4,
+                "ber_ls": 0.30276,
+                "ber_nr": 0.2534,
+                "ber_dt_lmmse": 0.26017,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -2.3,
+                "ber_ls": 0.24959,
+                "ber_nr": 0.20237,
+                "ber_dt_lmmse": 0.21125,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -0.3,
+                "ber_ls": 0.20175,
+                "ber_nr": 0.15781,
+                "ber_dt_lmmse": 0.16764,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 1.5,
+                "ber_ls": 0.15941,
+                "ber_nr": 0.1215,
+                "ber_dt_lmmse": 0.13189,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.5,
+                "ber_ls": 0.11389,
+                "ber_nr": 0.08261,
+                "ber_dt_lmmse": 0.09422,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.6,
+                "ber_ls": 0.07335,
+                "ber_nr": 0.04988,
+                "ber_dt_lmmse": 0.06062,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 7.5,
+                "ber_ls": 0.04628,
+                "ber_nr": 0.03174,
+                "ber_dt_lmmse": 0.04381,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 9.4,
+                "ber_ls": 0.02946,
+                "ber_nr": 0.02069,
+                "ber_dt_lmmse": 0.03125,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 11.4,
+                "ber_ls": 0.01733,
+                "ber_nr": 0.0128,
+                "ber_dt_lmmse": 0.02191,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        },
+        "p5": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 4,
+            "ls_wins": 6,
+            "avg_ber_gap_nr_minus_ls": 0.0145,
+            "captures": [
+              {
+                "ebn0_db": -5.4,
+                "ber_ls": 0.31001,
+                "ber_nr": 0.27831,
+                "ber_dt_lmmse": 0.25667,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -3.4,
+                "ber_ls": 0.25499,
+                "ber_nr": 0.22848,
+                "ber_dt_lmmse": 0.20917,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -1.3,
+                "ber_ls": 0.19677,
+                "ber_nr": 0.18102,
+                "ber_dt_lmmse": 0.1621,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 0.7,
+                "ber_ls": 0.14356,
+                "ber_nr": 0.14105,
+                "ber_dt_lmmse": 0.12066,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 2.6,
+                "ber_ls": 0.1019,
+                "ber_nr": 0.11046,
+                "ber_dt_lmmse": 0.08891,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 4.6,
+                "ber_ls": 0.06922,
+                "ber_nr": 0.09099,
+                "ber_dt_lmmse": 0.06407,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.6,
+                "ber_ls": 0.04419,
+                "ber_nr": 0.08396,
+                "ber_dt_lmmse": 0.04591,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 8.6,
+                "ber_ls": 0.02914,
+                "ber_nr": 0.07423,
+                "ber_dt_lmmse": 0.0327,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 10.5,
+                "ber_ls": 0.0195,
+                "ber_nr": 0.06995,
+                "ber_dt_lmmse": 0.02483,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 12.4,
+                "ber_ls": 0.01281,
+                "ber_nr": 0.06867,
+                "ber_dt_lmmse": 0.02024,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 8,
+            "ls_wins": 2,
+            "avg_ber_gap_nr_minus_ls": -0.01594,
+            "captures": [
+              {
+                "ebn0_db": -10.2,
+                "ber_ls": 0.42693,
+                "ber_nr": 0.40211,
+                "ber_dt_lmmse": 0.39708,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -8.3,
+                "ber_ls": 0.396,
+                "ber_nr": 0.36559,
+                "ber_dt_lmmse": 0.36348,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -6.2,
+                "ber_ls": 0.35567,
+                "ber_nr": 0.32414,
+                "ber_dt_lmmse": 0.323,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -4.2,
+                "ber_ls": 0.31409,
+                "ber_nr": 0.28494,
+                "ber_dt_lmmse": 0.28425,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -2.3,
+                "ber_ls": 0.26928,
+                "ber_nr": 0.24228,
+                "ber_dt_lmmse": 0.24227,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -0.4,
+                "ber_ls": 0.22354,
+                "ber_nr": 0.2022,
+                "ber_dt_lmmse": 0.20184,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.6,
+                "ber_ls": 0.17673,
+                "ber_nr": 0.1638,
+                "ber_dt_lmmse": 0.16382,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.6,
+                "ber_ls": 0.13593,
+                "ber_nr": 0.13304,
+                "ber_dt_lmmse": 0.13198,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 5.5,
+                "ber_ls": 0.09996,
+                "ber_nr": 0.10502,
+                "ber_dt_lmmse": 0.1054,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 7.5,
+                "ber_ls": 0.06915,
+                "ber_nr": 0.08479,
+                "ber_dt_lmmse": 0.0837,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        }
+      },
+      "nr_vs_ls": {
+        "nr_wins": 52,
+        "ls_wins": 48,
+        "total": 100
+      }
+    },
+    "20m": {
+      "positions": {
+        "p1": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.05233,
+            "captures": [
+              {
+                "ebn0_db": 2.0,
+                "ber_ls": 0.12739,
+                "ber_nr": 0.16544,
+                "ber_dt_lmmse": 0.09735,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 3.9,
+                "ber_ls": 0.08983,
+                "ber_nr": 0.11974,
+                "ber_dt_lmmse": 0.06847,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.0,
+                "ber_ls": 0.06061,
+                "ber_nr": 0.11927,
+                "ber_dt_lmmse": 0.04752,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 8.0,
+                "ber_ls": 0.04337,
+                "ber_nr": 0.09109,
+                "ber_dt_lmmse": 0.0351,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 10.0,
+                "ber_ls": 0.03238,
+                "ber_nr": 0.08982,
+                "ber_dt_lmmse": 0.0268,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 11.9,
+                "ber_ls": 0.0245,
+                "ber_nr": 0.08187,
+                "ber_dt_lmmse": 0.02053,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 13.9,
+                "ber_ls": 0.01869,
+                "ber_nr": 0.06464,
+                "ber_dt_lmmse": 0.01446,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 15.9,
+                "ber_ls": 0.01431,
+                "ber_nr": 0.07165,
+                "ber_dt_lmmse": 0.0113,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 17.8,
+                "ber_ls": 0.01077,
+                "ber_nr": 0.06143,
+                "ber_dt_lmmse": 0.00846,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 19.7,
+                "ber_ls": 0.00773,
+                "ber_nr": 0.08796,
+                "ber_dt_lmmse": 0.00902,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 2,
+            "ls_wins": 8,
+            "avg_ber_gap_nr_minus_ls": 0.01699,
+            "captures": [
+              {
+                "ebn0_db": -3.1,
+                "ber_ls": 0.29091,
+                "ber_nr": 0.28211,
+                "ber_dt_lmmse": 0.25449,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.24444,
+                "ber_nr": 0.23876,
+                "ber_dt_lmmse": 0.20998,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.0,
+                "ber_ls": 0.19642,
+                "ber_nr": 0.19672,
+                "ber_dt_lmmse": 0.16622,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 3.0,
+                "ber_ls": 0.1537,
+                "ber_nr": 0.15707,
+                "ber_dt_lmmse": 0.12716,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 4.9,
+                "ber_ls": 0.11752,
+                "ber_nr": 0.13333,
+                "ber_dt_lmmse": 0.09776,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.9,
+                "ber_ls": 0.08579,
+                "ber_nr": 0.10768,
+                "ber_dt_lmmse": 0.06989,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 8.9,
+                "ber_ls": 0.06122,
+                "ber_nr": 0.0954,
+                "ber_dt_lmmse": 0.05239,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 10.9,
+                "ber_ls": 0.04325,
+                "ber_nr": 0.07268,
+                "ber_dt_lmmse": 0.03722,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 12.8,
+                "ber_ls": 0.03158,
+                "ber_nr": 0.06938,
+                "ber_dt_lmmse": 0.02894,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 14.7,
+                "ber_ls": 0.02352,
+                "ber_nr": 0.0651,
+                "ber_dt_lmmse": 0.02235,
+                "best_receiver": "dt_assisted_lmmse"
+              }
+            ]
+          }
+        },
+        "p2": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 7,
+            "ls_wins": 3,
+            "avg_ber_gap_nr_minus_ls": -0.01588,
+            "captures": [
+              {
+                "ebn0_db": -3.1,
+                "ber_ls": 0.23258,
+                "ber_nr": 0.18191,
+                "ber_dt_lmmse": 0.17582,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.17528,
+                "ber_nr": 0.13464,
+                "ber_dt_lmmse": 0.13187,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 1.0,
+                "ber_ls": 0.11895,
+                "ber_nr": 0.08755,
+                "ber_dt_lmmse": 0.08818,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.0,
+                "ber_ls": 0.07904,
+                "ber_nr": 0.0591,
+                "ber_dt_lmmse": 0.0605,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.9,
+                "ber_ls": 0.05167,
+                "ber_nr": 0.03952,
+                "ber_dt_lmmse": 0.04128,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.8,
+                "ber_ls": 0.03391,
+                "ber_nr": 0.02617,
+                "ber_dt_lmmse": 0.02686,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.9,
+                "ber_ls": 0.02041,
+                "ber_nr": 0.01834,
+                "ber_dt_lmmse": 0.01822,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 10.9,
+                "ber_ls": 0.01303,
+                "ber_nr": 0.01404,
+                "ber_dt_lmmse": 0.01305,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 12.8,
+                "ber_ls": 0.00736,
+                "ber_nr": 0.00923,
+                "ber_dt_lmmse": 0.0089,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 14.7,
+                "ber_ls": 0.00426,
+                "ber_nr": 0.00722,
+                "ber_dt_lmmse": 0.00619,
+                "best_receiver": "dt_assisted_ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.02513,
+            "captures": [
+              {
+                "ebn0_db": -7.8,
+                "ber_ls": 0.38274,
+                "ber_nr": 0.34207,
+                "ber_dt_lmmse": 0.34712,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -5.8,
+                "ber_ls": 0.34243,
+                "ber_nr": 0.30154,
+                "ber_dt_lmmse": 0.30924,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -3.7,
+                "ber_ls": 0.29553,
+                "ber_nr": 0.25905,
+                "ber_dt_lmmse": 0.27069,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -1.7,
+                "ber_ls": 0.24749,
+                "ber_nr": 0.2123,
+                "ber_dt_lmmse": 0.23124,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 0.3,
+                "ber_ls": 0.20033,
+                "ber_nr": 0.16764,
+                "ber_dt_lmmse": 0.19713,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 2.2,
+                "ber_ls": 0.1555,
+                "ber_nr": 0.12996,
+                "ber_dt_lmmse": 0.16966,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.2,
+                "ber_ls": 0.11168,
+                "ber_nr": 0.09276,
+                "ber_dt_lmmse": 0.14344,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.2,
+                "ber_ls": 0.07647,
+                "ber_nr": 0.06404,
+                "ber_dt_lmmse": 0.13115,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.1,
+                "ber_ls": 0.04948,
+                "ber_nr": 0.04228,
+                "ber_dt_lmmse": 0.11166,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 10.1,
+                "ber_ls": 0.02967,
+                "ber_nr": 0.02841,
+                "ber_dt_lmmse": 0.09562,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        },
+        "p3": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.16364,
+            "captures": [
+              {
+                "ebn0_db": -9.3,
+                "ber_ls": 0.39826,
+                "ber_nr": 0.43996,
+                "ber_dt_lmmse": 0.36777,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -7.3,
+                "ber_ls": 0.35876,
+                "ber_nr": 0.41196,
+                "ber_dt_lmmse": 0.33767,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -5.2,
+                "ber_ls": 0.30756,
+                "ber_nr": 0.37799,
+                "ber_dt_lmmse": 0.30678,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -3.1,
+                "ber_ls": 0.25164,
+                "ber_nr": 0.35165,
+                "ber_dt_lmmse": 0.27423,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -1.3,
+                "ber_ls": 0.20135,
+                "ber_nr": 0.35049,
+                "ber_dt_lmmse": 0.25342,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 0.7,
+                "ber_ls": 0.15203,
+                "ber_nr": 0.34848,
+                "ber_dt_lmmse": 0.23143,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 2.6,
+                "ber_ls": 0.11133,
+                "ber_nr": 0.33414,
+                "ber_dt_lmmse": 0.21732,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 4.7,
+                "ber_ls": 0.07741,
+                "ber_nr": 0.33274,
+                "ber_dt_lmmse": 0.2074,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 6.6,
+                "ber_ls": 0.05551,
+                "ber_nr": 0.31724,
+                "ber_dt_lmmse": 0.20532,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 8.5,
+                "ber_ls": 0.03875,
+                "ber_nr": 0.32438,
+                "ber_dt_lmmse": 0.20477,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 0,
+            "ls_wins": 10,
+            "avg_ber_gap_nr_minus_ls": 0.05362,
+            "captures": [
+              {
+                "ebn0_db": -13.4,
+                "ber_ls": 0.46814,
+                "ber_nr": 0.49032,
+                "ber_dt_lmmse": 0.456,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -11.7,
+                "ber_ls": 0.45098,
+                "ber_nr": 0.47769,
+                "ber_dt_lmmse": 0.4409,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -9.7,
+                "ber_ls": 0.42584,
+                "ber_nr": 0.45275,
+                "ber_dt_lmmse": 0.41809,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -8.0,
+                "ber_ls": 0.39151,
+                "ber_nr": 0.42273,
+                "ber_dt_lmmse": 0.38923,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -6.1,
+                "ber_ls": 0.35667,
+                "ber_nr": 0.39719,
+                "ber_dt_lmmse": 0.36404,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -4.1,
+                "ber_ls": 0.31306,
+                "ber_nr": 0.36253,
+                "ber_dt_lmmse": 0.33444,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -2.1,
+                "ber_ls": 0.26866,
+                "ber_nr": 0.33115,
+                "ber_dt_lmmse": 0.31095,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": -0.1,
+                "ber_ls": 0.22342,
+                "ber_nr": 0.29897,
+                "ber_dt_lmmse": 0.29075,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 1.8,
+                "ber_ls": 0.1806,
+                "ber_nr": 0.27677,
+                "ber_dt_lmmse": 0.27798,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 3.8,
+                "ber_ls": 0.14055,
+                "ber_nr": 0.24553,
+                "ber_dt_lmmse": 0.26938,
+                "best_receiver": "ls"
+              }
+            ]
+          }
+        },
+        "p4": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 5,
+            "ls_wins": 5,
+            "avg_ber_gap_nr_minus_ls": -0.00473,
+            "captures": [
+              {
+                "ebn0_db": -1.2,
+                "ber_ls": 0.17806,
+                "ber_nr": 0.13946,
+                "ber_dt_lmmse": 0.13032,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 0.8,
+                "ber_ls": 0.13057,
+                "ber_nr": 0.10518,
+                "ber_dt_lmmse": 0.0961,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 2.9,
+                "ber_ls": 0.08212,
+                "ber_nr": 0.06779,
+                "ber_dt_lmmse": 0.06253,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 4.9,
+                "ber_ls": 0.05332,
+                "ber_nr": 0.04998,
+                "ber_dt_lmmse": 0.04378,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 6.8,
+                "ber_ls": 0.03644,
+                "ber_nr": 0.03612,
+                "ber_dt_lmmse": 0.03241,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": 8.7,
+                "ber_ls": 0.02054,
+                "ber_nr": 0.02571,
+                "ber_dt_lmmse": 0.02083,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 10.9,
+                "ber_ls": 0.00982,
+                "ber_nr": 0.01483,
+                "ber_dt_lmmse": 0.0142,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 12.8,
+                "ber_ls": 0.00497,
+                "ber_nr": 0.01239,
+                "ber_dt_lmmse": 0.00898,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 14.7,
+                "ber_ls": 0.002,
+                "ber_nr": 0.01269,
+                "ber_dt_lmmse": 0.0083,
+                "best_receiver": "dt_assisted_ls"
+              },
+              {
+                "ebn0_db": 16.6,
+                "ber_ls": 0.00053,
+                "ber_nr": 0.00691,
+                "ber_dt_lmmse": 0.00409,
+                "best_receiver": "dt_assisted_ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.0286,
+            "captures": [
+              {
+                "ebn0_db": -6.1,
+                "ber_ls": 0.34679,
+                "ber_nr": 0.29862,
+                "ber_dt_lmmse": 0.30399,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -4.2,
+                "ber_ls": 0.30105,
+                "ber_nr": 0.25318,
+                "ber_dt_lmmse": 0.2606,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -2.1,
+                "ber_ls": 0.25089,
+                "ber_nr": 0.20611,
+                "ber_dt_lmmse": 0.21536,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -0.1,
+                "ber_ls": 0.20434,
+                "ber_nr": 0.16373,
+                "ber_dt_lmmse": 0.17317,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 1.8,
+                "ber_ls": 0.15823,
+                "ber_nr": 0.1227,
+                "ber_dt_lmmse": 0.13583,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.8,
+                "ber_ls": 0.11603,
+                "ber_nr": 0.08693,
+                "ber_dt_lmmse": 0.10055,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.07967,
+                "ber_nr": 0.06093,
+                "ber_dt_lmmse": 0.07935,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 7.8,
+                "ber_ls": 0.05254,
+                "ber_nr": 0.04025,
+                "ber_dt_lmmse": 0.05409,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 9.9,
+                "ber_ls": 0.03056,
+                "ber_nr": 0.0247,
+                "ber_dt_lmmse": 0.04115,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 11.6,
+                "ber_ls": 0.0204,
+                "ber_nr": 0.01737,
+                "ber_dt_lmmse": 0.03171,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        },
+        "p5": {
+          "qpsk": {
+            "n_captures": 10,
+            "nr_wins": 7,
+            "ls_wins": 3,
+            "avg_ber_gap_nr_minus_ls": -0.01712,
+            "captures": [
+              {
+                "ebn0_db": -4.1,
+                "ber_ls": 0.27833,
+                "ber_nr": 0.22888,
+                "ber_dt_lmmse": 0.221,
+                "best_receiver": "dt_assisted_lmmse"
+              },
+              {
+                "ebn0_db": -2.1,
+                "ber_ls": 0.22136,
+                "ber_nr": 0.17523,
+                "ber_dt_lmmse": 0.17533,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -0.1,
+                "ber_ls": 0.16824,
+                "ber_nr": 0.13216,
+                "ber_dt_lmmse": 0.13851,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 1.9,
+                "ber_ls": 0.123,
+                "ber_nr": 0.09556,
+                "ber_dt_lmmse": 0.10705,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 3.8,
+                "ber_ls": 0.08787,
+                "ber_nr": 0.06858,
+                "ber_dt_lmmse": 0.07938,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 5.8,
+                "ber_ls": 0.06176,
+                "ber_nr": 0.05216,
+                "ber_dt_lmmse": 0.06395,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 7.8,
+                "ber_ls": 0.04435,
+                "ber_nr": 0.04219,
+                "ber_dt_lmmse": 0.05058,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 9.7,
+                "ber_ls": 0.03308,
+                "ber_nr": 0.03509,
+                "ber_dt_lmmse": 0.03979,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 11.7,
+                "ber_ls": 0.02294,
+                "ber_nr": 0.02976,
+                "ber_dt_lmmse": 0.03255,
+                "best_receiver": "ls"
+              },
+              {
+                "ebn0_db": 13.6,
+                "ber_ls": 0.01653,
+                "ber_nr": 0.02667,
+                "ber_dt_lmmse": 0.03067,
+                "best_receiver": "ls"
+              }
+            ]
+          },
+          "16qam": {
+            "n_captures": 10,
+            "nr_wins": 10,
+            "ls_wins": 0,
+            "avg_ber_gap_nr_minus_ls": -0.03264,
+            "captures": [
+              {
+                "ebn0_db": -9.2,
+                "ber_ls": 0.40871,
+                "ber_nr": 0.37105,
+                "ber_dt_lmmse": 0.3722,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -7.2,
+                "ber_ls": 0.37529,
+                "ber_nr": 0.33452,
+                "ber_dt_lmmse": 0.33812,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -5.1,
+                "ber_ls": 0.33302,
+                "ber_nr": 0.29003,
+                "ber_dt_lmmse": 0.29939,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -3.1,
+                "ber_ls": 0.289,
+                "ber_nr": 0.24404,
+                "ber_dt_lmmse": 0.2593,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": -1.1,
+                "ber_ls": 0.24204,
+                "ber_nr": 0.20028,
+                "ber_dt_lmmse": 0.22163,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 0.8,
+                "ber_ls": 0.19944,
+                "ber_nr": 0.16251,
+                "ber_dt_lmmse": 0.18525,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 2.8,
+                "ber_ls": 0.15269,
+                "ber_nr": 0.12097,
+                "ber_dt_lmmse": 0.14541,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 4.8,
+                "ber_ls": 0.11472,
+                "ber_nr": 0.0905,
+                "ber_dt_lmmse": 0.11676,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 6.7,
+                "ber_ls": 0.08388,
+                "ber_nr": 0.06712,
+                "ber_dt_lmmse": 0.09852,
+                "best_receiver": "neural_rx"
+              },
+              {
+                "ebn0_db": 8.6,
+                "ber_ls": 0.05994,
+                "ber_nr": 0.05129,
+                "ber_dt_lmmse": 0.07925,
+                "best_receiver": "neural_rx"
+              }
+            ]
+          }
+        }
+      },
+      "nr_vs_ls": {
+        "nr_wins": 51,
+        "ls_wins": 49,
+        "total": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "alpha_db": 58.995187364751004,
+  "alpha_linear": 793448.4872538234,
+  "tau_rms_log_normal": {
+    "mu_lgDS": 1.3148365366367105,
+    "sigma_lgDS": 0.2342186148415697,
+    "median_ns": 20.6460291715842,
+    "source": "D7R ITU grid (3121 pos)"
+  },
+  "tau_scatter_ns": {
+    "mean": 58.68946372741817,
+    "median": 60.62601396171152,
+    "std": 10.549977925804724,
+    "source": "20 sounding positions (H_meas/\u221a\u03b1 - H_dt)"
+  },
+  "p_scatter_over_p_dt_db": {
+    "mean": 5.968297833796099,
+    "std": 2.7697682500031697,
+    "source": "20 sounding positions"
+  },
+  "rho": {
+    "mean": 0.8415463494897093,
+    "std": 0.057578586126320656,
+    "source": "5 OTA positions (doppler analysis)"
+  }
+}
